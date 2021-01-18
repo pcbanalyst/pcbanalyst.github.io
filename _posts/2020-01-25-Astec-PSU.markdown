@@ -1,0 +1,16 @@
+---
+layout: viewer
+title:  "Old Astec AT PSU"
+date:   2020-01-25 14:12:15 +0100
+tags: "pc powersupply psu"
+manufacturer: "astec"
+board: "at_psu"
+layers:
+    - {name: "bottom_components", description: "Bottom components", type: "components"                 }
+    - {name: "bottom_soldermask", description: "Bottom soldermask", type: "soldermask", color: "green" }
+    - {name: "copper2",           description: "Copper 2",          type: "copper"                     }
+    - {name: "substrate1",        description: "Substrate 1",       type: "substrate",  color: "fr2"   }
+    - {name: "top_silkscreen",    description: "Top silkscreen",    type: "silkscreen", color: "black" }
+    - {name: "top_components",    description: "Top components",    type: "components"                 }
+---
+An old AT power supply made by Astec

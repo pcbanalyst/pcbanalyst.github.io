@@ -1,0 +1,19 @@
+---
+layout: viewer
+title:  "Old Astec AT PSU"
+date:   2020-01-25 14:12:15 +0100
+tags: "n64 transfer pack"
+manufacturer: "nintendo"
+board: "nus-019"
+layers:
+    - {name: "bottom_components", description: "Bottom components", type: "components"                 }
+    - {name: "bottom_silkscreen", description: "Bottom silkscreen", type: "silkscreen", color: "white" }
+    - {name: "bottom_soldermask", description: "Bottom soldermask", type: "soldermask", color: "green" }
+    - {name: "copper2",           description: "Copper 2",          type: "copper"                     }
+    - {name: "substrate1",        description: "Substrate 1",       type: "substrate",  color: "fr4"   }
+    - {name: "copper1",           description: "Copper 1",          type: "copper"                     }
+    - {name: "top_soldermask",    description: "Top soldermask",    type: "soldermask", color: "green" }
+    - {name: "top_silkscreen",    description: "Top silkscreen",    type: "silkscreen", color: "white" }
+    - {name: "top_components",    description: "Top components",    type: "components"                 }
+---
+N64 Transfer Pack
