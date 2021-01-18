@@ -1,0 +1,362 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5E3EF47E
+P 1500 1000
+F 0 "J1" H 1418 685 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 776 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 1418 867 50  0000 C CNN
+F 3 "~" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5E3EFD59
+P 1500 1600
+F 0 "J2" H 1418 1285 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 1376 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 1418 1467 50  0000 C CNN
+F 3 "~" H 1500 1600 50  0001 C CNN
+	1    1500 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5E3F013D
+P 2100 1000
+F 0 "F1" V 1903 1000 50  0000 C CNN
+F 1 "Fuse" V 1994 1000 50  0000 C CNN
+F 2 "Fuse:Fuse_SunFuse-6HP" V 2030 1000 50  0001 C CNN
+F 3 "~" H 2100 1000 50  0001 C CNN
+	1    2100 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1000 1950 1000
+$Comp
+L Device:C C1
+U 1 1 5E3F0BC4
+P 2500 1300
+F 0 "C1" H 2615 1346 50  0000 L CNN
+F 1 "C" H 2615 1255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L24.0mm_W8.6mm_P22.50mm_MKT" H 2538 1150 50  0001 C CNN
+F 3 "~" H 2500 1300 50  0001 C CNN
+	1    2500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E3F1194
+P 2900 1150
+F 0 "R1" H 2970 1196 50  0000 L CNN
+F 1 "R" H 2970 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2830 1150 50  0001 C CNN
+F 3 "~" H 2900 1150 50  0001 C CNN
+	1    2900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5E3F17A8
+P 2900 1450
+F 0 "R17" H 2970 1496 50  0000 L CNN
+F 1 "R" H 2970 1405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2830 1450 50  0001 C CNN
+F 3 "~" H 2900 1450 50  0001 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1000 2500 1000
+Wire Wire Line
+	2500 1150 2500 1000
+Connection ~ 2500 1000
+Wire Wire Line
+	2500 1000 2900 1000
+Wire Wire Line
+	2500 1450 2500 1600
+Wire Wire Line
+	2500 1600 2900 1600
+Wire Wire Line
+	2500 1600 1700 1600
+Connection ~ 2500 1600
+$Comp
+L Device:L_Coupled L1
+U 1 1 5E3F2FC3
+P 3500 1300
+F 0 "L1" H 3500 1581 50  0000 C CNN
+F 1 "L_Coupled" H 3500 1490 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN112-04-17.7x17.1mm" H 3500 1300 50  0001 C CNN
+F 3 "~" H 3500 1300 50  0001 C CNN
+	1    3500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1000 3300 1000
+Wire Wire Line
+	3300 1000 3300 1200
+Connection ~ 2900 1000
+Wire Wire Line
+	2900 1600 3300 1600
+Wire Wire Line
+	3300 1600 3300 1400
+Connection ~ 2900 1600
+$Comp
+L Device:Thermistor TH1
+U 1 1 5E3F4D9C
+P 3900 1600
+F 0 "TH1" V 3658 1600 50  0000 C CNN
+F 1 "Thermistor" V 3749 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 3900 1600 50  0001 C CNN
+F 3 "~" H 3900 1600 50  0001 C CNN
+	1    3900 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 1200 3700 1000
+$Comp
+L Device:C C2
+U 1 1 5E3F5FF1
+P 4250 1300
+F 0 "C2" H 4365 1346 50  0000 L CNN
+F 1 "C" H 4365 1255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L24.0mm_W8.6mm_P22.50mm_MKT" H 4288 1150 50  0001 C CNN
+F 3 "~" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1000 4250 1150
+Wire Wire Line
+	3700 1400 3700 1600
+Wire Wire Line
+	4250 1600 4250 1450
+$Comp
+L Device:L_Coupled L2
+U 1 1 5E3F683F
+P 4850 1300
+F 0 "L2" H 4850 1581 50  0000 C CNN
+F 1 "L_Coupled" H 4850 1490 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN112-04-17.7x17.1mm" H 4850 1300 50  0001 C CNN
+F 3 "~" H 4850 1300 50  0001 C CNN
+	1    4850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1000 4650 1000
+Wire Wire Line
+	4650 1000 4650 1200
+Connection ~ 4250 1000
+Wire Wire Line
+	4650 1400 4650 1600
+Wire Wire Line
+	4650 1600 4250 1600
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5E3F7EBF
+P 5800 2000
+F 0 "SW2" H 5800 2235 50  0000 C CNN
+F 1 "SW_SPST" H 5800 2144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5800 2000 50  0001 C CNN
+F 3 "~" H 5800 2000 50  0001 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1200 5050 1000
+Wire Wire Line
+	5050 1000 5250 1000
+Wire Wire Line
+	5050 1400 5050 1600
+$Comp
+L Device:Thermistor TH3
+U 1 1 5E3FAA8D
+P 5800 1600
+F 0 "TH3" V 6042 1600 50  0000 C CNN
+F 1 "Thermistor" V 5951 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 5800 1600 50  0001 C CNN
+F 3 "~" H 5800 1600 50  0001 C CNN
+	1    5800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode_Bridge:B40R DB1
+U 1 1 5E3FBFD8
+P 6350 1300
+F 0 "DB1" H 6694 1346 50  0000 L CNN
+F 1 "B40R" H 6694 1255 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Vishay_GBL" H 6500 1425 50  0001 L CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf" H 6350 1300 50  0001 C CNN
+	1    6350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1600 5250 1600
+$Comp
+L Device:C C3
+U 1 1 5E3FDA36
+P 5250 1150
+F 0 "C3" H 5365 1196 50  0000 L CNN
+F 1 "C" H 5365 1105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT" H 5288 1000 50  0001 C CNN
+F 3 "~" H 5250 1150 50  0001 C CNN
+	1    5250 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 1000
+$Comp
+L Device:C C4
+U 1 1 5E3FDF4C
+P 5250 1450
+F 0 "C4" H 5365 1496 50  0000 L CNN
+F 1 "C" H 5365 1405 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT" H 5288 1300 50  0001 C CNN
+F 3 "~" H 5250 1450 50  0001 C CNN
+	1    5250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1300 5500 1300
+Wire Wire Line
+	5500 1300 5500 1400
+Connection ~ 5250 1300
+$Comp
+L power:Earth #PWR0101
+U 1 1 5E3FE7C9
+P 5500 1400
+F 0 "#PWR0101" H 5500 1150 50  0001 C CNN
+F 1 "Earth" H 5500 1250 50  0001 C CNN
+F 2 "" H 5500 1400 50  0001 C CNN
+F 3 "~" H 5500 1400 50  0001 C CNN
+	1    5500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1000 4250 1000
+Wire Wire Line
+	4100 1600 4250 1600
+Connection ~ 4250 1600
+Wire Wire Line
+	5250 1600 5600 1600
+Connection ~ 5250 1600
+Wire Wire Line
+	6000 1600 6350 1600
+Wire Wire Line
+	5250 1000 6350 1000
+Wire Wire Line
+	5250 1600 5250 2000
+Wire Wire Line
+	5250 2000 5600 2000
+$Comp
+L Device:C C12
+U 1 1 5E40360B
+P 7600 1000
+F 0 "C12" H 7715 1046 50  0000 L CNN
+F 1 "C" H 7715 955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L19.0mm_W5.0mm_P15.00mm_MKS4" H 7638 850 50  0001 C CNN
+F 3 "~" H 7600 1000 50  0001 C CNN
+	1    7600 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 1000 7450 1000
+Connection ~ 6350 1000
+$Comp
+L Device:R R12
+U 1 1 5E40429E
+P 7900 1000
+F 0 "R12" H 7970 1046 50  0000 L CNN
+F 1 "R" H 7970 955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7830 1000 50  0001 C CNN
+F 3 "~" H 7900 1000 50  0001 C CNN
+	1    7900 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Coupled_Small L3
+U 1 1 5E40602E
+P 6400 2050
+F 0 "L3" H 6400 2281 50  0000 C CNN
+F 1 "L_Coupled_Small" H 6400 2190 50  0000 C CNN
+F 2 "Inductor_THT:L_Mount_Lodestone_VTM120" H 6400 2050 50  0001 C CNN
+F 3 "~" H 6400 2050 50  0001 C CNN
+	1    6400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1300 6050 1750
+$Comp
+L Device:CP C7
+U 1 1 5E40A48E
+P 6950 2150
+F 0 "C7" H 6832 2104 50  0000 R CNN
+F 1 "CP" H 6832 2195 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn" H 6988 2000 50  0001 C CNN
+F 3 "~" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5E40AABE
+P 7350 2150
+F 0 "C6" H 7468 2196 50  0000 L CNN
+F 1 "CP" H 7468 2105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn" H 7388 2000 50  0001 C CNN
+F 3 "~" H 7350 2150 50  0001 C CNN
+	1    7350 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1750 6500 2000
+Wire Wire Line
+	6050 1750 6500 1750
+Wire Wire Line
+	6000 2000 6300 2000
+Wire Wire Line
+	6500 2000 6950 2000
+Connection ~ 6500 2000
+Wire Wire Line
+	6950 2300 6500 2300
+Wire Wire Line
+	6500 2300 6500 2100
+Wire Wire Line
+	6950 2300 7350 2300
+Connection ~ 6950 2300
+Wire Wire Line
+	7350 1300 7350 2000
+Wire Wire Line
+	6650 1300 7350 1300
+$Comp
+L Device:R R2
+U 1 1 5E414DB6
+P 7650 2150
+F 0 "R2" H 7720 2196 50  0000 L CNN
+F 1 "R" H 7720 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7580 2150 50  0001 C CNN
+F 3 "~" H 7650 2150 50  0001 C CNN
+	1    7650 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2000 7650 2000
+Connection ~ 7350 2000
+Wire Wire Line
+	7650 2300 7350 2300
+Connection ~ 7350 2300
+$EndSCHEMATC

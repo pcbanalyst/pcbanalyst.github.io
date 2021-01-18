@@ -1,10 +1,10 @@
 ---
-layout: viewer
+layout: default
 title:  "NETGEAR RND-2D"
 date:   2020-11-28 17:00:00 +0100
 tags: "netgear nas"
 ---
-# Serial Port
+# NETGEAR RND-2D Serial Port
 
 You can access this port without disassembling the entire thing, simply remove the left side panel and reverse the order
 

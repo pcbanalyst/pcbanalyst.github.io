@@ -1,6 +1,6 @@
 ---
 layout: viewer
-title:  "Old Astec AT PSU"
+title:  "N64 Transfer Pack"
 date:   2020-01-25 14:12:15 +0100
 tags: "n64 transfer pack"
 manufacturer: "nintendo"

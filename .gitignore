@@ -2,3 +2,12 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+/unsorted
+*.xcf
+
+# Kicad
+*.bak
+fp-info-cache
+kicad-cache.lib
+*.kicad_pcb-bak

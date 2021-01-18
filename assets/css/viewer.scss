@@ -1,0 +1,62 @@
+---
+---
+@import "main";
+@import "{{ site.theme }}";
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#pcbviewer {
+    width: 100%;
+    height: auto;
+}
+
+#pcbviewer_menu {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 0;
+}
+
+#pcbviewer_content {
+    position: absolute;
+    left: 10%;
+    width: 90%;
+    height: 100%;
+}
+
+.board_layers {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+.substrate {
+    width: 100%;
+    height: 100%;
+}
+
+.fr4 {
+    background-color: #d69c2f;
+}
+
+.copper {
+    background-color: #B87333;
+}
+
+.copper.soldermask_green {
+    background-color: #008826;
+}
+
+.soldermask_green {
+    background-color: #004d26;
+}
