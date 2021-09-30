@@ -1,0 +1,79 @@
+---
+layout: viewer
+title:  "DAM XG-1000"
+date:   2021-09-25 15:15:15 +0100
+tags: "dam xg 1000 karaoke machine"
+manufacturer: "DAM"
+board: "xg_1000_main"
+layers:
+    - {name: "bottom_components", description: "Bottom components", type: "components"                 }
+    - {name: "bottom_soldermask", description: "Bottom soldermask", type: "soldermask", color: "green" }
+    - {name: "copper2",           description: "Copper 2",          type: "copper"                     }
+    - {name: "substrate1",        description: "Substrate 1",       type: "substrate",  color: "fr2"   }
+    - {name: "copper1",           description: "Copper 1",          type: "copper"                     }
+    - {name: "top_silkscreen",    description: "Top silkscreen",    type: "silkscreen", color: "green" }
+    - {name: "top_components",    description: "Top components",    type: "components"                 }
+---
+A commercial Karaoke machine
+
+https://www.dkkaraoke.co.jp/business/karaoke_service/products/old/premierdam/
+http://web.archive.org/web/20080601222833/http://www.dkkaraoke.co.jp/business/karaoke_service/syouhin/PremierDAM/PremierDAM.html
+
+Released at 2600000 Yen on 2007-04-19 it is now EOL and turning up on yahoo auctions now for around 5000 Yen.
+
+https://auctions.yahoo.co.jp/category/list/2084048479/
+
+It seems it was originally made by a Korean Company OSUNG MIDICOM CO., LTD.
+
+CPU:		SMP863X
+CPU spec:	MIPS 34Kf
+Arch:		MIPS32R2
+
+RAM:		4x K4H511638D
+		512Mb D-die DDR SDRAM Specification
+
+Main Flash:	Spansion S29GL064
+	    64 Megabit 3.0-Volt NOR Memory
+
+FPGA:		XC3S1000
+		Xilinx Spartan
+
+FPGA RAM:	K4S643232H
+		64Mb H-die (x32) SDRAM Specification
+
+SATA:		SiI3114CTU
+		PCI to Serial ATA Controller
+
+HDD:		ST3750640AS
+		Seagate BarraCuda 7200.10
+
+DVD:		
+        CD-R、CD-RW、CD-ROM、DVD±R、DVD±RW、DVD-VIDEO、DVD-ROM　
+
+USB:		GL850A
+		USB 2.0 Low-Power HUB Controller
+
+DSP:		TMS320D610A003ZDP
+		Audio DSP System for Home Theater Products
+
+YAMAHA:		YSS910C-V
+		    YSS915-M
+
+Software side:
+The HDDs are in a very weird format, only one partition is readable as ext2.
+
+Earliest file date: 2006-12-14 11:45
+Latest file date:   2007-04-15 15:48
+
+There are kernel modules with a version string.
+`vermagic=2.6.15-sigma MIPS32_R2 32BIT gcc-3.4`
+
+The executables in it, `xg1000` and `Karaoke` depend on
+- GLIBCXX_3.4
+- GCC_3.0
+- CXXABI_1.3
+- uClibc 0.9.27
+
+I was able to run them in qemu-system-mips with
+vmlinux-2.6.32-5-4kc-malta from https://people.debian.org/~aurel32/qemu/mipsel/
+and an image built with buildroot git version 257dcdeabfc7072023050be6c8da46e0b76d478e in a debian etch VM
