@@ -1,0 +1,30 @@
+---
+layout: viewer
+title:  "Gigaset C620"
+date:   2023-08-04 15:52:00 +0100
+tags: "gigaset c620 dect"
+manufacturer: "Gigaset"
+board: "W30852-Q2453-B101-6"
+---
+A DECT phone
+
+Manual
+https://gse.gigaset.com/fileadmin/legacy-assets/CustomerCare/Manuals/C62x/C620-C620A/A31008-M2403-E101-1-3F19_13-06-2016_de_BE.pdf
+
+## Main Board:
+Silkscreen:
+W30852-Q2453-B101-6
+
+CPU:		Dialog SC14443
+Arch:		16-bit CompactRISC
+
+Main Flash:	Macronix MX25U3235F
+	    1.8V, 32M-BIT [x 1/x 2/x 4] CMOS MXSMIO (SERIAL MULTI I/O) FLASH MEMORY
+
+RAM: EMLSI EM784SP16BPP
+        512Kx16 Pseudo Static RAM
+
+LCD: CASIL CTM128160N06
+
+## CPU
+Dialog, formerly SiTel, now owned by Renesas

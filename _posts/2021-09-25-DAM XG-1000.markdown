@@ -126,8 +126,16 @@ DVD:
         CD-R、CD-RW、CD-ROM、DVD±R、DVD±RW、DVD-VIDEO、DVD-ROM　
 
 
+# Power supply
+You can connect an ATX power supply through one of the empty SATA power connectors.
+This will make most of the machine work except for Video out and Music out.
+For that you will have to connect -12V and power the 7805 regulator from the 12V supply.
+I've desoldered the diodes from the second analog power supply while I was looking for a short.
+
 # Software side
-The HDDs are in a very weird format, only one partition is readable as ext2.
+The first partition has a loader that is run by /etc/init.d/S50NK1000
+The second partition doesn't have a filesystem and is accessed directly by the program.
+The third partition has all the data but to obfuscate it they changed the ext3 header, changing that one byte makes it mountable again.
 
 Earliest file date: 2006-12-14 11:45
 Latest file date:   2007-04-15 15:48
@@ -144,3 +152,9 @@ The executables in it, `xg1000` and `Karaoke` depend on
 I was able to run them in qemu-system-mips with
 vmlinux-2.6.32-5-4kc-malta from https://people.debian.org/~aurel32/qemu/mipsel/
 and an image built with buildroot git version 257dcdeabfc7072023050be6c8da46e0b76d478e in a debian etch VM
+
+The machine has telnet open and the "default" user has no password.
+But you can log in and edit the /etc/shadow file to remove the root password.
+Then reconnect and log in as root without a password.
+
+As root you can run /NK1000/Data/MODUL/SetTime to reset the date and make the machine work again if it has expired.
