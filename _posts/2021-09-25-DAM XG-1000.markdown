@@ -132,6 +132,10 @@ This will make most of the machine work except for Video out and Music out.
 For that you will have to connect -12V and power the 7805 regulator from the 12V supply.
 I've desoldered the diodes from the second analog power supply while I was looking for a short.
 
+# Remote
+Along with the second machine i got a PM200zB remote.
+It has a Samsung ARM CPU and runs Linux 2.2.14-v5.1_PM200
+
 # Software side
 The first partition has a loader that is run by /etc/init.d/S50NK1000
 The second partition doesn't have a filesystem and is accessed directly by the program.
@@ -158,3 +162,64 @@ But you can log in and edit the /etc/shadow file to remove the root password.
 Then reconnect and log in as root without a password.
 
 As root you can run /NK1000/Data/MODUL/SetTime to reset the date and make the machine work again if it has expired.
+
+# Hidden menus
+## Service menu
+When the machine is off but has power (the power button will have a red LED and the screen is off) hold the Tempo- and Tempo+ buttons and then press the power button.
+Instead of the loading screen it will be black for a few seconds and then show the service menu.
+You can also hold the Tempo up key from the normal mode.
+
+You can do a bunch of setups here and run basic tests.
+
+## Developer menu
+To get in the developer menu, press the Tempo reset keys a few times from the Top menu.
+It will then ask for a password, on older updates this is 8650 on newer ones it is 865024.
+Here you can change the serial, set the IP address and format the TEMP partition.
+
+## 99 Menus
+When the machine is on and running in normal mode, press 99 and then the DAM key to open a quick settings menu.
+Here you can adjust echo, volume and the type of background.
+Navigate with Tempo and Key keys and close with the DAM key.
+
+### 98 Menu
+The same thing but it's a bar at the top of the screen instead of a big overlay
+
+### 97 Menu
+The same thing but it's a window in the top left of the screen.
+
+### 96 Menu
+This is something about video
+
+## Owner mode
+Play track number 0000-01
+Here you can update the remote and permanently set some of the settings from the 99 menu.
+
+## Remote settings
+To get into the settings of the デンモク remote you press the "Remote" button in the bottom right.
+Enter 983, then press メモリーセット.
+it will show a message, then enter the 9193 password and press メモリーセット again
+
+# Intro vid
+7777-77 will play an Intro video that presents 4 feature:
+1. Burn your terrible singing to disc
+Yo check out my mixtape
+
+2. SD card
+Look at photos of your trip to the Korea DMZ while you sing.
+((You need the Media dock for this))
+
+3. iPod
+Play music from your iPod
+((You need the Media dock for this))
+
+4. Game
+There are at least 2 Games:
+One that just measures how loud you've been and calculates burnt calories from that.
+The calorie counter can be enabled/disabled in the owner menu.
+You can check the calories for the last tracks using 8000-30.
+A game like singstar where you actually have to kinda hit the tone to get a score.
+To start this game enter song 8000-01 for ranked and 8000-02 for casual games.
+You can look at past scores using 8000-99
+
+# Easter egg
+5793-01 is the company track of DKK
