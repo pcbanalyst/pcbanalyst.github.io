@@ -1,5 +1,5 @@
 ---
-layout: viewer
+layout: post
 title:  "Gigaset C620"
 date:   2023-08-04 15:52:00 +0100
 tags: "gigaset c620 dect"

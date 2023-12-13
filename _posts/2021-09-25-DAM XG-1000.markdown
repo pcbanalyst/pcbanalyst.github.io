@@ -1,5 +1,5 @@
 ---
-layout: viewer
+layout: post
 title:  "DAM XG-1000"
 date:   2021-09-25 15:15:15 +0100
 tags: "dam xg 1000 karaoke machine"
@@ -158,7 +158,7 @@ vmlinux-2.6.32-5-4kc-malta from https://people.debian.org/~aurel32/qemu/mipsel/
 and an image built with buildroot git version 257dcdeabfc7072023050be6c8da46e0b76d478e in a debian etch VM
 
 # Making it work again
-!(error screen)[http://pcbwiki.eu/assets/images/dam/305.99994008.png] !(warning screen)[http://pcbwiki.eu/assets/images/dam/305.99994009.png]
+![error screen](http://pcbwiki.eu/assets/images/dam/305.99994008.png) ![warning screen](http://pcbwiki.eu/assets/images/dam/305.99994009.png)
 The machine has telnet open and the "default" user has no password.
 But you can log in and edit the /etc/shadow file to remove the root password.
 Then reconnect and log in as root without a password.
@@ -240,10 +240,47 @@ You can look at past scores using 8000-99
 58 | DAMstation ad and binaries | Quicktime MP4
 59 | 1 binary | YKCD????
 115 | UI elements, fonts, the keypress beep audio, audio from the test menu | BMP, OSM_FONT2 (Osung Midicom?), WAV, MP3
-300 | high entropy binaries | ???
-301 | high entropy binaries | ???
-302 | images of track names and words | 291-314 bytes + PNG
+300 | music instrumentals, numbered after the clubdam ID | MP3
+301 | high entropy binaries, corresponging filenames to 300 | ???
+302 | 9 subfolders images of track names and words | 291-314 bytes + PNG
 303 | videos of nature and ambiance music | WMV, MP3
 304 | ambiance music | MP3
 305 | next track tables, stock photos, list of new tracks, error screens | MPEG2 stills
+306 | 9 subfolders with binaries | ???
+307 | 29 binarues and a script rename.sh that renamed each file from 22.* to 307.* | txt
+308 | binaries with names corresponding to clubdam IDs | MIDI???
+310 | on screen menu images | BMP
+311 | online ranking game, gundam visual novel, golf animations, some pokemon graphics | MPEG2 stills, JPEG, BMP
 312 | vocals | mp3
+313 | single 528b mp3 file | YOKA MP3 (can't play)
+314 | binaries | YARC ???
+315 | empty |
+316 | album/artist images | JPEG
+317 | binaries | YARC header and DBGV chunks
+318 | empty |
+319 | music video | WMV 9
+320 | videos??? | WMB1P WMV3 (can't play)
+321 | movie trailers (tetsuo shinohara's gakko no kaidan) | WMV 9
+323 | DAM channel videos | WMV 9
+324 | NHK historic video with a note they can be played using 7500-xx (playing them gives a message they're expired) | WMV 9
+340 | an image of a pretty japanese woman and a note about data being received | JPEG, Shift-JIS TXT
+341 | the album cover to aerosmith's "just push play", the track "beyond beautiful", an xml file describing it as T0001S01.wma and being on the album "Climbing!" by Mountain and a note about something being downloaded | JPEG, WMA2, Euc-JP XML, Shift-JIS TXT
+342 | OTHER PEOPLES SINGING ????????? | WAV
+343 | a file containing about 8 unrelated track names | no idea
+344 | a silent 4s mp3 | MP3
+360 | empty |
+362 | empty |
+400 | empty |
+401 | empty |
+402 | empty |
+403 | empty |
+404 | empty |
+405 | empty |
+406 | empty |
+441 | empty |
+1017 | empty |
+1033 | empty |
+1528 | data | ???
+
+Folder 321 (which is all ads) uses up most of the space (388,1GB)
+I suspect the videos are in folder 300 and the music in 324
