@@ -1,0 +1,619 @@
+EESchema Schematic File Version 5
+EELAYER 43 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 3650 1900
+Connection ~ 3650 2200
+Connection ~ 4000 1900
+Connection ~ 4000 2200
+Connection ~ 4350 1900
+Connection ~ 4350 2200
+Connection ~ 5150 4450
+Connection ~ 5550 3850
+Connection ~ 6000 2550
+Connection ~ 6000 3850
+Connection ~ 6050 900 
+Connection ~ 6500 1650
+Connection ~ 6550 2550
+Connection ~ 6700 3850
+Connection ~ 7350 1950
+Connection ~ 8300 5300
+Connection ~ 8300 5650
+Connection ~ 8450 5000
+Connection ~ 8450 5300
+Connection ~ 8700 5000
+Connection ~ 8700 5300
+Connection ~ 9400 5300
+Connection ~ 9600 5300
+Connection ~ 9750 5550
+Connection ~ 9850 5050
+Wire Wire Line
+	2700 1950 3050 1950
+Wire Wire Line
+	2700 2150 3650 2150
+Wire Wire Line
+	3350 1950 3650 1950
+Wire Wire Line
+	3650 1900 4000 1900
+Wire Wire Line
+	3650 1950 3650 1900
+Wire Wire Line
+	3650 2150 3650 2200
+Wire Wire Line
+	3650 2200 4000 2200
+Wire Wire Line
+	4000 1900 4350 1900
+Wire Wire Line
+	4000 2200 4350 2200
+Wire Wire Line
+	4350 1950 4350 1900
+Wire Wire Line
+	4350 2150 4350 2200
+Wire Wire Line
+	4600 1950 4350 1950
+Wire Wire Line
+	4600 2150 4350 2150
+Wire Wire Line
+	5000 1750 5600 1750
+Wire Wire Line
+	5000 1950 5000 1750
+Wire Wire Line
+	5000 2350 5000 2150
+Wire Wire Line
+	5150 4350 5150 4450
+Wire Wire Line
+	5150 4450 5150 4550
+Wire Wire Line
+	5300 2050 5300 2550
+Wire Wire Line
+	5300 2550 6000 2550
+Wire Wire Line
+	5550 3300 6800 3300
+Wire Wire Line
+	5550 3850 5450 3850
+Wire Wire Line
+	5550 3850 5550 3300
+Wire Wire Line
+	5600 2350 5000 2350
+Wire Wire Line
+	5600 3850 5550 3850
+Wire Wire Line
+	5900 2050 6550 2050
+Wire Wire Line
+	5900 3850 6000 3850
+Wire Wire Line
+	6000 2550 6550 2550
+Wire Wire Line
+	6000 3850 6000 3750
+Wire Wire Line
+	6000 3950 6000 3850
+Wire Wire Line
+	6000 4250 7350 4250
+Wire Wire Line
+	6050 650  5500 650 
+Wire Wire Line
+	6050 900  6050 650 
+Wire Wire Line
+	6050 1000 6050 900 
+Wire Wire Line
+	6100 3850 6000 3850
+Wire Wire Line
+	6250 900  6250 1000
+Wire Wire Line
+	6250 900  6500 900 
+Wire Wire Line
+	6500 900  6500 1650
+Wire Wire Line
+	6500 1650 6500 1950
+Wire Wire Line
+	6500 1950 7350 1950
+Wire Wire Line
+	6550 2150 6550 2050
+Wire Wire Line
+	6550 2550 6550 2450
+Wire Wire Line
+	6550 2550 7500 2550
+Wire Wire Line
+	6700 2250 7500 2250
+Wire Wire Line
+	6700 3850 6700 2250
+Wire Wire Line
+	6800 3300 6800 1850
+Wire Wire Line
+	7200 2350 7500 2350
+Wire Wire Line
+	7200 4450 5150 4450
+Wire Wire Line
+	7200 4450 7200 2350
+Wire Wire Line
+	7350 1950 7350 1700
+Wire Wire Line
+	7350 1950 7500 1950
+Wire Wire Line
+	7350 4250 7350 1950
+Wire Wire Line
+	7400 6000 7400 5850
+Wire Wire Line
+	7500 1950 7500 2050
+Wire Wire Line
+	7700 5000 7900 5000
+Wire Wire Line
+	7700 5300 8300 5300
+Wire Wire Line
+	7700 5650 8300 5650
+Wire Wire Line
+	7800 1700 7650 1700
+Wire Wire Line
+	8000 5850 8000 6000
+Wire Wire Line
+	8000 6000 7400 6000
+Wire Wire Line
+	8200 5000 8450 5000
+Wire Wire Line
+	8300 5300 8450 5300
+Wire Wire Line
+	8300 5350 8300 5300
+Wire Wire Line
+	8450 5000 8700 5000
+Wire Wire Line
+	8450 5300 8700 5300
+Wire Wire Line
+	8450 5650 8300 5650
+Wire Wire Line
+	8700 5300 9400 5300
+Wire Wire Line
+	8900 4950 8900 5000
+Wire Wire Line
+	8900 5000 8700 5000
+Wire Wire Line
+	8900 5650 8750 5650
+Wire Wire Line
+	9200 5650 9950 5650
+Wire Wire Line
+	9400 5300 9600 5300
+Wire Wire Line
+	9600 5050 9600 5300
+Wire Wire Line
+	9600 5300 9600 5550
+Wire Wire Line
+	9600 5550 9750 5550
+Wire Wire Line
+	9750 5050 9600 5050
+Wire Wire Line
+	9850 4950 9200 4950
+Wire Wire Line
+	9850 5050 9850 4950
+Wire Wire Line
+	9850 5050 9950 5050
+Wire Wire Line
+	9850 5550 9750 5550
+Wire Wire Line
+	9950 5650 9950 5550
+Text GLabel 6500 1650 0    50   Input ~ 0
+SUB3
+Text GLabel 7000 3850 2    50   Input ~ 0
+SUB1
+$Comp
+L power:GND #PWR0101
+U 1 1 601010FA
+P 9400 5300
+F 0 "#PWR0101" H 9400 5050 50  0001 C CNN
+F 1 "GND" H 9405 5127 50  0000 C CNN
+F 2 "" H 9400 5300 50  0001 C CNN
+F 3 "" H 9400 5300 50  0001 C CNN
+	1    9400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F101
+U 1 1 600EC84D
+P 3200 1950
+F 0 "F101" V 3003 1950 50  0000 C CNN
+F 1 "Fuse" V 3094 1950 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" V 3130 1950 50  0001 C CNN
+F 3 "~" H 3200 1950 50  0001 C CNN
+	1    3200 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F102
+U 1 1 625FFB60
+P 5750 3850
+F 0 "F102" V 5553 3850 50  0000 C CNN
+F 1 "P110A" V 5644 3850 50  0000 C CNN
+F 2 "" V 5680 3850 50  0001 C CNN
+F 3 "~" H 5750 3850 50  0001 C CNN
+	1    5750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F201
+U 1 1 600FB455
+P 9050 4950
+F 0 "F201" V 8853 4950 50  0000 C CNN
+F 1 "Fuse" V 8944 4950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 4950 50  0001 C CNN
+F 3 "~" H 9050 4950 50  0001 C CNN
+	1    9050 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F202
+U 1 1 600FB981
+P 9050 5650
+F 0 "F202" V 8853 5650 50  0000 C CNN
+F 1 "Fuse" V 8944 5650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 5650 50  0001 C CNN
+F 3 "~" H 9050 5650 50  0001 C CNN
+	1    9050 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L nus-002-rescue:L_Core_Ferrite-Device L202
+U 1 1 601015D3
+P 8050 5000
+F 0 "L202" V 7869 5000 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 7960 5000 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D6.0mm_P4.00mm" H 8050 5000 50  0001 C CNN
+F 3 "~" H 8050 5000 50  0001 C CNN
+	1    8050 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R101
+U 1 1 600F02FE
+P 4350 2050
+F 0 "R101" H 4420 2096 50  0000 L CNN
+F 1 "3.1k" H 4420 2005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 2050 50  0001 C CNN
+F 3 "~" H 4350 2050 50  0001 C CNN
+	1    4350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R107
+U 1 1 6264BF5B
+P 5900 900
+F 0 "R107" V 5693 900 50  0000 C CNN
+F 1 "R" V 5784 900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5830 900 50  0001 C CNN
+F 3 "~" H 5900 900 50  0001 C CNN
+	1    5900 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R103
+U 1 1 625FA114
+P 6000 2700
+F 0 "R103" H 6070 2746 50  0000 L CNN
+F 1 "R" H 6070 2655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 2700 50  0001 C CNN
+F 3 "~" H 6000 2700 50  0001 C CNN
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R106
+U 1 1 625FA916
+P 6000 3000
+F 0 "R106" H 6070 3046 50  0000 L CNN
+F 1 "R" H 6070 2955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 3000 50  0001 C CNN
+F 3 "~" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R110
+U 1 1 625FADF0
+P 6000 3300
+F 0 "R110" H 6070 3346 50  0000 L CNN
+F 1 "R" H 6070 3255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 3300 50  0001 C CNN
+F 3 "~" H 6000 3300 50  0001 C CNN
+	1    6000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R111
+U 1 1 6260048D
+P 6000 3600
+F 0 "R111" H 6070 3646 50  0000 L CNN
+F 1 "R" H 6070 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 3600 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R104
+U 1 1 62693ED4
+P 6550 3850
+F 0 "R104" V 6343 3850 50  0000 C CNN
+F 1 "R" V 6434 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6480 3850 50  0001 C CNN
+F 3 "~" H 6550 3850 50  0001 C CNN
+	1    6550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R205
+U 1 1 600FCAC0
+P 8450 5150
+F 0 "R205" H 8520 5196 50  0000 L CNN
+F 1 "3.1k" H 8520 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8380 5150 50  0001 C CNN
+F 3 "~" H 8450 5150 50  0001 C CNN
+	1    8450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D102
+U 1 1 626DE08F
+P 5150 4700
+F 0 "D102" V 5196 4620 50  0000 R CNN
+F 1 "D" V 5105 4620 50  0000 R CNN
+F 2 "" H 5150 4700 50  0001 C CNN
+F 3 "~" H 5150 4700 50  0001 C CNN
+	1    5150 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Zener ZD101
+U 1 1 6268CE19
+P 6000 4100
+F 0 "ZD101" V 5954 4180 50  0000 L CNN
+F 1 "D_Zener" V 6045 4180 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-2_Vertical" H 6000 4100 50  0001 C CNN
+F 3 "~" H 6000 4100 50  0001 C CNN
+	1    6000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad_2Pin HS1
+U 1 1 625FC0D5
+P 6150 1100
+F 0 "HS1" H 6006 1047 50  0000 R CNN
+F 1 "Heatsink_Pad_2Pin" H 6006 1138 50  0000 R CNN
+F 2 "" H 6162 1050 50  0001 C CNN
+F 3 "~" H 6162 1050 50  0001 C CNN
+	1    6150 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C101
+U 1 1 600ECEE0
+P 3650 2050
+F 0 "C101" H 3765 2096 50  0000 L CNN
+F 1 "C" H 3765 2005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT" H 3688 1900 50  0001 C CNN
+F 3 "~" H 3650 2050 50  0001 C CNN
+	1    3650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C102
+U 1 1 600ED664
+P 4000 2050
+F 0 "C102" H 4115 2096 50  0000 L CNN
+F 1 "C" H 4115 2005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P7.50mm" H 4038 1900 50  0001 C CNN
+F 3 "~" H 4000 2050 50  0001 C CNN
+	1    4000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C106
+U 1 1 6269313E
+P 6250 3850
+F 0 "C106" H 6365 3896 50  0000 L CNN
+F 1 "C" H 6365 3805 50  0000 L CNN
+F 2 "" H 6288 3700 50  0001 C CNN
+F 3 "~" H 6250 3850 50  0001 C CNN
+	1    6250 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L nus-002-rescue:CP-Device C103
+U 1 1 600F365A
+P 6550 2300
+F 0 "C103" H 6668 2346 50  0000 L CNN
+F 1 "47uF 400V" H 6668 2255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm" H 6588 2150 50  0001 C CNN
+F 3 "~" H 6550 2300 50  0001 C CNN
+	1    6550 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C105
+U 1 1 614BBF2D
+P 7500 1700
+F 0 "C105" H 7615 1746 50  0000 L CNN
+F 1 "KH472M" H 7615 1655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P7.50mm" H 7538 1550 50  0001 C CNN
+F 3 "~" H 7500 1700 50  0001 C CNN
+	1    7500 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L nus-002-rescue:CP-Device C202
+U 1 1 6010284C
+P 7700 5150
+F 0 "C202" H 7818 5196 50  0000 L CNN
+F 1 "680uF 35V" H 7818 5105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 7738 5000 50  0001 C CNN
+F 3 "~" H 7700 5150 50  0001 C CNN
+	1    7700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C107
+U 1 1 614BC526
+P 7950 1700
+F 0 "C107" H 8065 1746 50  0000 L CNN
+F 1 "KH472M" H 8065 1655 50  0000 L CNN
+F 2 "" H 7988 1550 50  0001 C CNN
+F 3 "~" H 7950 1700 50  0001 C CNN
+	1    7950 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L nus-002-rescue:CP-Device C203
+U 1 1 600FF39E
+P 8300 5500
+F 0 "C203" H 8182 5454 50  0000 R CNN
+F 1 "560uF 25V" H 8182 5545 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 8338 5350 50  0001 C CNN
+F 3 "~" H 8300 5500 50  0001 C CNN
+	1    8300 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L nus-002-rescue:CP-Device C205
+U 1 1 600FC276
+P 8700 5150
+F 0 "C205" H 8818 5196 50  0000 L CNN
+F 1 "330uF 10V" H 8818 5105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" H 8738 5000 50  0001 C CNN
+F 3 "~" H 8700 5150 50  0001 C CNN
+	1    8700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L nus-002-rescue:Ferrite_Bead-Device L102
+U 1 1 626DCE34
+P 5150 4200
+F 0 "L102" H 5287 4246 50  0000 L CNN
+F 1 "Ferrite_Bead" H 5287 4155 50  0000 L CNN
+F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" V 5080 4200 50  0001 C CNN
+F 3 "~" H 5150 4200 50  0001 C CNN
+	1    5150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L nus-002-rescue:Ferrite_Bead-Device L103
+U 1 1 626A2321
+P 6850 3850
+F 0 "L103" V 7124 3850 50  0000 C CNN
+F 1 "Ferrite_Bead" V 7033 3850 50  0000 C CNN
+F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" V 6780 3850 50  0001 C CNN
+F 3 "~" H 6850 3850 50  0001 C CNN
+	1    6850 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L nus-002-rescue:Ferrite_Bead-Device L201
+U 1 1 600FE4ED
+P 8600 5650
+F 0 "L201" V 8326 5650 50  0000 C CNN
+F 1 "Ferrite_Bead" V 8417 5650 50  0000 C CNN
+F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" V 8530 5650 50  0001 C CNN
+F 3 "~" H 8600 5650 50  0001 C CNN
+	1    8600 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L nus-002-rescue:EMI_Filter_CommonMode-Device L101
+U 1 1 600EE206
+P 4800 2050
+F 0 "L101" H 4800 2331 50  0000 C CNN
+F 1 "EMI_Filter_CommonMode" H 4800 2240 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm" H 4800 2090 50  0001 C CNN
+F 3 "~" H 4800 2090 50  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_WallPlug J101
+U 1 1 600EAFEE
+P 2500 2050
+F 0 "J101" H 2517 2375 50  0000 C CNN
+F 1 "Conn_WallPlug" H 2517 2284 50  0000 C CNN
+F 2 "Connector_JST:JST_VH_B2P3-VH_1x02_P7.92mm_Vertical" H 2900 2050 50  0001 C CNN
+F 3 "~" H 2900 2050 50  0001 C CNN
+	1    2500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_ECB Q102
+U 1 1 626564F7
+P 6700 1650
+F 0 "Q102" H 6890 1696 50  0000 L CNN
+F 1 "D1302" H 6890 1605 50  0000 L CNN
+F 2 "" H 6900 1750 50  0001 C CNN
+F 3 "~" H 6700 1650 50  0001 C CNN
+	1    6700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q101
+U 1 1 626D3B4F
+P 5250 3850
+F 0 "Q101" H 5455 3804 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5455 3895 50  0000 L CNN
+F 2 "Connector_JST:JST_VH_B2P3-VH_1x02_P7.92mm_Vertical" H 5450 3950 50  0001 C CNN
+F 3 "~" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L nus-002-rescue:D_Schottky_x2_KCom_AKA-Device D201
+U 1 1 60104BE5
+P 7700 5850
+F 0 "D201" H 7700 5975 50  0000 C CNN
+F 1 "MA10799" H 7700 6066 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7700 5850 50  0001 C CNN
+F 3 "~" H 7700 5850 50  0001 C CNN
+	1    7700 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J201
+U 1 1 600F72BF
+P 9850 5350
+F 0 "J201" V 9946 5162 50  0000 R CNN
+F 1 "Conn_02x03_Top_Bottom" V 9855 5162 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 9850 5350 50  0001 C CNN
+F 3 "~" H 9850 5350 50  0001 C CNN
+	1    9850 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transformer:TRANSF6 T101
+U 1 1 625F37C3
+P 7700 2350
+F 0 "T101" H 7700 2832 50  0000 C CNN
+F 1 "BM116A" H 7700 2741 50  0000 C CNN
+F 2 "Transformer_THT:Transformer_Coilcraft_Q4434-B_Rhombus-T1311" H 7700 2350 50  0001 C CNN
+F 3 "" H 7700 2350 50  0001 C CNN
+	1    7700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Bridge_+AA- D101
+U 1 1 600F15AB
+P 5600 2050
+F 0 "D101" H 5944 2096 50  0000 L CNN
+F 1 "S1WB" H 5944 2005 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm" H 5600 2050 50  0001 C CNN
+F 3 "~" H 5600 2050 50  0001 C CNN
+	1    5600 2050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -157,6 +157,8 @@ I was able to run them in qemu-system-mips with
 vmlinux-2.6.32-5-4kc-malta from https://people.debian.org/~aurel32/qemu/mipsel/
 and an image built with buildroot git version 257dcdeabfc7072023050be6c8da46e0b76d478e in a debian etch VM
 
+# Making it work again
+!(error screen)[http://pcbwiki.eu/assets/images/dam/305.99994008.png] !(warning screen)[http://pcbwiki.eu/assets/images/dam/305.99994009.png]
 The machine has telnet open and the "default" user has no password.
 But you can log in and edit the /etc/shadow file to remove the root password.
 Then reconnect and log in as root without a password.
@@ -223,3 +225,25 @@ You can look at past scores using 8000-99
 
 # Easter egg
 5793-01 is the company track of DKK
+
+
+# Folder contents
+
+| Folder | Content | Format |
+|--------|---------|--------|
+5 | empty |
+11 | empty |
+30 | weird history trivie | Shift-JIS txt
+40 | wavetables??? | YHMK (probably stands for Yamaha)
+44 | empty |
+56 | 6 demo videos | Windows Media Video 9
+58 | DAMstation ad and binaries | Quicktime MP4
+59 | 1 binary | YKCD????
+115 | UI elements, fonts, the keypress beep audio, audio from the test menu | BMP, OSM_FONT2 (Osung Midicom?), WAV, MP3
+300 | high entropy binaries | ???
+301 | high entropy binaries | ???
+302 | images of track names and words | 291-314 bytes + PNG
+303 | videos of nature and ambiance music | WMV, MP3
+304 | ambiance music | MP3
+305 | next track tables, stock photos, list of new tracks, error screens | MPEG2 stills
+312 | vocals | mp3
