@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "KORI Tech HandyStar"
+date:   2023-12-18 13:15:15 +0100
+tags: "koritech handy star karaoke"
+manufacturer: "KORI Tech"
+board: "kt123a"
+---
+FCC filing:
+https://fcc.report/FCC-ID/PK8KT-5010/
+
+Has a schematic
+
+Video ASIC
+KORI TECH
+KKT-V9810S
+QFP160
+
+KT-FJALLFNT2
+TSOP48
+
+Fujitsu
+MB3516A
+0344
+SOP24
+
+MIDI Synthesizer
+dream
+55581A
+0345
+3H3722
+SAM9703
+QFP100
+
+Sub Memory
+KT-SJP400GS50
+TSOP48
+
+Flash ROM
+Operating System Storage Device
+HYUNDAI KOR
+HY29F040AC-70
+0023A
+PLCC32
+
+SRAM Main Memory
+AMIC
+LP62S2048X-7OLLT
+TSOP32
+
+EliteMT
+LP62S1024AV-70LLT
+TSOP32
+
+KT-VGJP3250
+TSOP48
+
+CPU
+MC68SEC000FU16
+OL90M
+QCJ0349
+QFP64
+
+Wavetable ROM
+SO24012
+KT-9703GS32
+(c) 2F128702
+SOP44
+
+SRAM Main Memory for Musical Instrument Composition
+AMIC
+LP62S161288V-70LLT
+SOP44
+
+
+ROMs could be
+MX29LV320TC
+K3N6V(U)1000E-YC
