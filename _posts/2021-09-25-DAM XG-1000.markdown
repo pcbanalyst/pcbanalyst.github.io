@@ -11,7 +11,7 @@ A commercial Karaoke machine
 https://www.dkkaraoke.co.jp/business/karaoke_service/products/old/premierdam/
 http://web.archive.org/web/20080601222833/http://www.dkkaraoke.co.jp/business/karaoke_service/syouhin/PremierDAM/PremierDAM.html
 
-Released at 2600000 Yen on 2007-04-19 it is now EOL and turning up on yahoo auctions now for around 5000 Yen.
+Released at 2600000 Yen on 2007-04-19 it is now EOL and turning up on yahoo auctions now for around 5000 Yen or less.
 
 https://auctions.yahoo.co.jp/category/list/2084048479/
 
@@ -133,7 +133,7 @@ For that you will have to connect -12V and power the 7805 regulator from the 12V
 I've desoldered the diodes from the second analog power supply while I was looking for a short.
 
 # Remote
-Along with the second machine i got a PM200zB remote.
+Along with the second machine I got a PM200zB remote.
 It has a Samsung ARM CPU and runs Linux 2.2.14-v5.1_PM200
 
 # Software side
@@ -211,6 +211,9 @@ interact
 
 As root you can run `/NK1000/Data/MODUL/SetTime 2020-06-06` to reset the date and make the machine work again if it has expired.
 
+# Notes
+The serial port is one of the DIN sockets marked コントロール. It's at RS232 levels (+-12V!!). The top 2 pins are TX/RX and the middle right is Ground. It's at 115200 baud and will output garbage while the machine is off.
+
 # Hidden menus
 ## Service menu
 When the machine is off but has power (the power button will have a red LED and the screen is off) hold the Tempo- and Tempo+ buttons and then press the power button.
@@ -251,7 +254,6 @@ it will show a message, then enter the 9193 password and press メモリーセ�
 # Intro vid
 7777-77 will play an Intro video that presents 4 feature:
 1. Burn your terrible singing to disc
-Yo check out my mixtape
 
 2. SD card
 Look at photos of your trip to the Korea DMZ while you sing.
